@@ -1,75 +1,51 @@
 @charset "UTF-8";
 
-/* formatação do titulo */
-.titulo{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #2b57e0;
+#titulo{
+    background-color:#2f59e3 ;
+    display: block;
+    padding: 10px 20px 100px 20px;
+    margin: 10px 20px 100px 20px;
+    max-width: auto;
+    max-height: auto;
+}
+.titulo_nome{
     color: white;
-    padding-top: 10px;
-    padding-right: 0px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-
-}
-.titulo>img{
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top:0px;
-    padding-right: 10px;
-    padding-bottom: 50px;
-    padding-left: 10px;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
-    margin-left: 20px;
-}
-.titulo>h1 {
-    text-align: center;
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-.titulo>p{
-
-}
-.btn{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 10px;
-    background-color: rgb(242, 247, 245);
-    margin: 25px;
-    padding: 25px;
-    box-shadow:4px 4px  rgba(194, 193, 193, 0.233);
-    border-radius: 10px;
-    
-
-    
-    
-}
-/* formatação das informações*/
-.primeira{
-    text-align: center;
-    text-indent: 20px;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-/* formatação das tecnologias */
-
-.Cards{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    margin-top: 10px;
+    justify-content:flex-start;
+    text-align: top;
+    margin:2px 34px 0px 284px;
+    padding:0px 221px 10px 290px ;
+
 }
-.card{
-    background-color: rgb(242, 247, 245);
-    margin: 25px;
-    padding: 25px;
-    box-shadow:4px 4px  rgba(194, 193, 193, 0.233);
-    border-radius: 10px;
+
+.imagem_perfil{
+    display: flex;
+    margin:124px 843px 7px 55px;
+    padding: 13px 0px 0px 43px;
+}
+
+.paragrafo_titulo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px 129px 10px 427px;
+    padding: 0px 127px 10px 115px;
+}
+
+.botao_titulo{
+    display: flex;
+    text-align: center;
+    background-color: rgb(252, 249, 249);
+    justify-content: center;
+    margin:11px 382px 10px 668px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 1px 3px 2px rgba(0, 0, 0, 0.432);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+.botao_titulo:hover{
+    color: cadetblue;
 }
