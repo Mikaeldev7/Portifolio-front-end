@@ -1,31 +1,43 @@
 @charset "UTF-8";
 
+
+/* alteração do header "Titulo"*/
 #titulo{
+    width: auto;
+    height: auto;
     background-color:#2f59e3 ;
     display: block;
     padding: 10px 20px 100px 20px;
-    margin: 10px 20px 100px 20px;
+    margin:10px auto 100px auto;
     max-width: auto;
     max-height: auto;
 }
 .titulo_nome{
+    display: block;
+    width: 1411px;
+    height: auto;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content:flex-start;
-    text-align: top;
-    margin:2px 34px 0px 284px;
-    padding:0px 221px 10px 290px ;
+    text-align: center;
+    margin:1px auto 19px 0px;
+    padding:0px 66px 10px 20px;
+    justify-items: center;
+    justify-content: center;
 
 }
 
 .imagem_perfil{
-    display: flex;
-    margin:124px 843px 7px 55px;
-    padding: 13px 0px 0px 43px;
+    display: inline-block;
+    width: auto;
+    height:auto;
+    margin:157px 3px 7px 27px;
+    padding: 64px 0px 0px 0px;
 }
 
 .paragrafo_titulo{
+    display: inline-block;
+    width: auto;
+    height: auto;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -34,7 +46,9 @@
 }
 
 .botao_titulo{
-    display: flex;
+    display: inline-block;
+    width: auto;
+    height: auto;
     text-align: center;
     background-color: rgb(252, 249, 249);
     justify-content: center;
@@ -48,4 +62,26 @@
 }
 .botao_titulo:hover{
     color: cadetblue;
+}
+/* ateração da descrição "sobre mim "*/
+.descricao{
+    display: block;
+    background-color: rgba(210, 105, 30, 0.295);
+    width: 800px;
+    height: 140px;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.sobremim{
+    text-align: center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    
+}
+
+.paragrafo_descricao{
+    text-align: center;
+    text-indent: 10px;
 }
