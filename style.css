@@ -7,10 +7,9 @@
     height: auto;
     background-color:#2f59e3 ;
     display: block;
-    padding: 10px 20px 100px 20px;
+    padding: 10px auto 100px auto;
     margin:10px auto 100px auto;
-    max-width: auto;
-    max-height: auto;
+  
 }
 .titulo_nome{
     display: block;
@@ -66,11 +65,13 @@
 /* ateração da descrição "sobre mim "*/
 .descricao{
     display: block;
-    background-color: rgba(210, 105, 30, 0.295);
+    
     width: 800px;
     height: 140px;
     justify-content: center;
     justify-items: center;
+    margin: auto;
+    padding: 10px 30px 30px 30px;
     
 }
 .sobremim{
@@ -78,10 +79,57 @@
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    margin:10px  auto 10px auto;
     
 }
-
 .paragrafo_descricao{
     text-align: center;
     text-indent: 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* configuração dos cards*/
+
+.tecnologia{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+.cards{
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    display:block;
+}
+.card1{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(64, 66, 68);
+    margin: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    justify-items: center;
+
+
+}
+.card2{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(64, 66, 68);
+    margin: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card3{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(64, 66, 68);
+    margin: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+    justify-content: center;
+    justify-items: center;
 }
