@@ -7,21 +7,17 @@
     height: auto;
     background-color:#2f59e3 ;
     display: block;
-    padding: 10px auto 100px auto;
+    padding: 10px auto 100px 300px;
     margin:10px auto 100px auto;
   
 }
 .titulo_nome{
-    display: block;
-    width: 1411px;
-    height: auto;
+    display: inline-block;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
     margin:1px auto 19px 0px;
-    padding:0px 66px 10px 20px;
-    justify-items: center;
-    justify-content: center;
+    padding:0px 66px 10px 450px;
+    
 
 }
 
@@ -35,23 +31,19 @@
 
 .paragrafo_titulo{
     display: inline-block;
-    width: auto;
-    height: auto;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin: 0px 129px 10px 427px;
-    padding: 0px 127px 10px 115px;
+    margin: 0px 129px 10px 350px;
+    padding: 0px 127px 40px 115px;
 }
 
 .botao_titulo{
     display: inline-block;
-    width: auto;
-    height: auto;
     text-align: center;
     background-color: rgb(252, 249, 249);
     justify-content: center;
-    margin:11px 382px 10px 668px;
+    margin:11px 382px 30px 595px;
     padding: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 1px 3px 2px rgba(0, 0, 0, 0.432);
@@ -96,39 +88,48 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
+    padding: 10px 10px 10px 10px;
 }
+
 .cards{
     text-align: center;
-    display:flex;
     
+    display: block;
+    background-color: rgba(169, 169, 169, 0.226);
+    padding: 20px 10px 40px 10px;
+    margin: 10px 200px 10px 200px ;
 }
+
 .card1{
-    display: flex;
+    display: inline-block;
     text-align: center;
-    background-color: rgb(64, 66, 68);
-    margin: 5px 700px 6px 500px;
-    padding: 10px 10px 10px 10px;
     justify-content: center;
-    justify-items: center;
-
-
+    padding: 10px 30px 10px 30px;
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
 }
+
 .card2{
-    display: flex;
+    display: inline-block;
     text-align: center;
-    background-color: rgb(64, 66, 68);
-    margin:5px 700px 6px 500px;
-    padding: 10px 10px 10px 10px;
     justify-content: center;
-    justify-items: center;
+    padding: 10px 30px 10px 30px;
+    margin: 10px 10px 10px 10px;
+    background-color:white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+
 }
 
 .card3{
-    display: flex;
-    text-align: center;
-    background-color: rgb(64, 66, 68);
-    margin: 5px 700px 6px 500px;
-    padding: 10px 10px 10px 10px;
+    display: inline-block;
     justify-content: center;
-    justify-items: center;
+    padding: 10px 15px 10px 15px;
+    margin: 10px 10px 10px 10px;
+    background-color:white;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.199);
+
 }
