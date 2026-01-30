@@ -168,10 +168,47 @@
     background-color: beige;
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px black;
+    
+
+}
+/* decoração dos links*/
+.card_link{
+    text-decoration: none;
+    font-weight:;
+    
+}
+.card_link:hover{
+    color: #e32f2f;
+    
+
+}
+.card_link::before{
+    content:  '🔗';
+}
+
+/* configurações dos contatos*/
+.contatos{
+    display: block;
+    text-align: center;
+    background-color: black;
+    color:white;
+    margin: 10px 260px 10px 260px;
+    padding: 20px 90px 30px 90px;
 
 }
 
-.card_link:hover{
-    color: #e32f2f;
-
+.titulo_contato{
+    display: inline;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragrafo_contato{
+    display: inline;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.imagen-link{
+    gap: 35px;
+    justify-content: center;
 }
